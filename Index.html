@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+  <title>FruitBox Ravulapalem</title>
+  <link rel="stylesheet" href="FruitBox.css" />
+</head>
+<body>
+  
+  <header>
+    <nav class="navbar">
+      
+       <div class="logo">
+            <span class="logo-vl">VL</span>
+            Fruit<span style="color:#ff8906;">Box</span>
+        </div>
+      
+
+      <ul class="nav-links">
+            <li><a href="#" data-screen="home-screen">Home</a></li>
+            <li><a href="#" data-screen="menu-screen">Menu</a></li>
+            <li><a href="#" data-screen="daily-screen">Daily</a></li>
+            <li><a href="#" data-screen="contact-screen">Contact</a></li>
+          </ul>
+
+
+      <div class="nav-buttons" id="navBtns">
+        <button class="btn subscribe-btn">Subscribe</button>
+        <button class="btn login-btn">Login</button>
+      </div>
+    
+  </header>
+
+
+   <main>
+  <!-- HOME SCREEN -->
+  <section id="home-screen" class="screen" style="display:block">
+    
+    <section class="hero">
+      <div class="hero-text">
+        <p class="subtitle">Fresh Fruits &amp; Sprouts Delivered
+          <span class="highlight">to Ravulapalem, daily!</span>
+        </p>
+        <h1 class="hero-title">
+          Healthy Mornings Start<br>
+          with <span style="color:#ff8906;">FruitBox</span>!
+        </h1>
+        <p style="font-size:18px;margin-top:12px;">
+          Choose your box and get the freshest fruits & sprouts<br>
+          delivered to your doorstep <b>between 7:00 - 10:00 AM</b> every morning.
+        </p>
+        <div class="box-options">
+          <div class="box-card">
+            <h3>Medium Box</h3>
+            <div class="price">₹1,999 <span>/ month</span></div>
+            <ul>
+              <li>Assorted Fruits</li>
+              <li>Fresh Sprouts</li>
+              <li>Feeds 2-3 people</li>
+            </ul>
+            <button class="btn subscribe-btn">Choose Box</button>
+          </div>
+          <div class="box-card large">
+            <h3>Large Box</h3>
+            <div class="price">₹2,599 <span>/ month</span></div>
+            <ul>
+              <li>More Varieties</li>
+              <li>Bigger Sprout Packs</li>
+              <li>Feeds 4-5 people</li>
+            </ul>
+            <button class="btn subscribe-btn">Choose Box</button>
+          </div>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="Fruitbox.jpg"
+             alt="Fruit Basket Delivery" style="width:370px;max-width:100%">
+      </div>
+    </section>
+    <!-- Highlights Section -->
+    <section class="highlights">
+      <div class="highlight-item">
+        <div class="icon">🍎</div>
+        <h4>Hand-picked Fruits</h4>
+        <p>Only the freshest fruits in every box, guaranteed.</p>
+      </div>
+      <div class="highlight-item">
+        <div class="icon">🌱</div>
+        <h4>Nutritious Sprouts</h4>
+        <p>Perfectly grown, ready-to-eat sprouts add to your health.</p>
+      </div>
+      <div class="highlight-item">
+        <div class="icon">⏰</div>
+        <h4>Morning Delivery</h4>
+        <p>Your healthy box arrives between 7 and 10 am, just in time for breakfast.</p>
+      </div>
+      <div class="highlight-item">
+        <div class="icon">📦</div>
+        <h4>Easy Subscription</h4>
+        <p>Monthly delivery, easy pause or switch any time.</p>
+      </div>
+    </section>
+  </section>
+
+  <!-- MENU SCREEN -->
+ <section id="menu-screen" class="screen modern-menu" style="display:none;">
+  <h2 class="menu-title">What's Inside Your FruitBox?</h2>
+  <p class="menu-description">
+    Explore our staple picks for the month. Enjoy a selection tailored for taste, nutrition, and freshness!
+  </p>
+
+  <div class="menu-cards">
+    <div class="menu-card">
+      <h3>🍎 Apples</h3>
+      <p>Crisp and sweet, perfect for a healthy snack any time of the day.</p>
+    </div>
+    <div class="menu-card">
+      <h3>🍌 Bananas</h3>
+      <p>Energizing and filling; a fantastic source of potassium and fiber.</p>
+    </div>
+    <div class="menu-card">
+      <h3>🍊 Seasonal Citrus</h3>
+      <p>Oranges or Mosambi for immunity boost and fresh vitamin C.</p>
+    </div>
+    <div class="menu-card">
+      <h3>🍈 Papaya / Melon</h3>
+      <p>Supports digestive health with natural enzymes and hydration.</p>
+    </div>
+    <div class="menu-card">
+      <h3>🌱 Fresh Sprouts</h3>
+      <p>Includes Moong, Chana, or Mixed sprouts – fresh protein and fiber source.</p>
+    </div>
+    <div class="menu-card bonus-card">
+      <h3>🎁 Bonus Seasonal Fruit</h3>
+      <p>Small seasonal treats like guava or pomegranate to add variety and nutrition.</p>
+    </div>
+  </div>
+
+  <p class="menu-note">
+    <strong>Note:</strong> Box contents rotate weekly for maximum freshness!
+  </p>
+</section>
+
+
+  <section id="daily-screen" class="screen daily-fullscreen" style="display:none;">
+  <h2 style="color:#38b000; text-align:center; margin-top:32px;">Today's Box</h2>
+  <div class="daily-items-container">
+    <div class="daily-item">
+      <img src="https://img.icons8.com/color/96/dragon-fruit.png" alt="Dragon Fruit" />
+
+      <div class="daily-label">Apples (2)</div>
+    </div>
+    <div class="daily-item">
+      <img src="https://img.icons8.com/emoji/96/banana-emoji.png" alt="Banana" />
+      <div class="daily-label">Banana (4)</div>
+    </div>
+    <div class="daily-item">
+      <img src="https://img.icons8.com/emoji/96/tangerine.png" alt="Orange" />
+      <div class="daily-label">Orange (2)</div>
+    </div>
+    <div class="daily-item">
+      <img src="https://img.icons8.com/color/96/papaya.png" alt="Chopped Papaya" />
+      <div class="daily-label">Chopped Papaya (250g)</div>
+    </div>
+    <div class="daily-item">
+      <img src="https://img.icons8.com/fluency/96/salad.png" alt="Sprouts Mix" />
+      <div class="daily-label">Sprouts Mix (200g)</div>
+    </div>
+   <div class="daily-item">
+  <img src="https://img.icons8.com/color/96/grapes.png" alt="Grapes" />
+  <div class="daily-label">Grapes (100g)</div>
+</div>
+<div class="daily-item">
+  <img src="https://img.icons8.com/color/96/watermelon.png" alt="Watermelon" />
+  <div class="daily-label">Watermelon<br>(150g)</div>
+</div>
+<div class="daily-item">
+  <img src="https://img.icons8.com/color/96/pomegranate.png" alt="Pomegranate" />
+  <div class="daily-label">Pomegranate<br>(half, deseeded)</div>
+</div>
+<div class="daily-item">
+  <img src="https://img.icons8.com/color/96/corn--v1.png" alt="Sweet Corn" />
+  <div class="daily-label">Sweet Corn (100g)</div>
+</div>
+
+<div class="daily-item">
+  <img src="https://img.icons8.com/color/96/yogurt.png" alt="Yogurt Cup" />
+  <div class="daily-label">Fresh Yogurt<br>(80ml cup)</div>
+</div>
+
+  </div>
+  
+  <p style="color:#888;margin-top:30px;text-align:center;font-size:1.18em;">
+    Delivered fresh this morning!<br>Check your box card for detailed nutrition and recipe ideas.
+  </p>
+</section>
+
+
+  <!-- CONTACT SCREEN -->
+ <section id="contact-screen" class="screen contact-spa" style="display:none;">
+  <div class="contact-container">
+    <!-- CONTACT HEADER -->
+    <h2 class="contact-title">Contact Us</h2>
+    
+    <!-- CONTACT FORM -->
+    <form class="contact-form">
+      <div class="form-row">
+        <div class="form-group">
+          <label for="contact-email">Email</label>
+          <input type="email" id="contact-email" placeholder="Enter a valid email address" required>
+        </div>
+        <div class="form-group">
+          <label for="contact-name">Name</label>
+          <input type="text" id="contact-name" placeholder="Enter your Name" required>
+        </div>
+      </div>
+      <button type="submit" class="contact-submit">SUBMIT</button>
+    </form>
+    <!-- CONTACT INFO -->
+    <div class="contact-info-row">
+      <div class="contact-info-box">
+        <div class="info-icon" style="background: #ff8906;">
+          <!-- Running icon SVG -->
+          <svg width="30" height="30" viewBox="0 0 32 32" fill="#fff"><path d="M28.1 9c0-2-1.7-3.6-3.6-3.6s-3.6 1.7-3.6 3.6c0 2 1.7 3.6 3.6 3.6 1.9-.1 3.6-1.7 3.6-3.6zM8.4 20.1c-2.3 1.3-3.8 3.3-4.1 5.3-.1.4.2.8.6.8H7c.2 0 .5-.2.5-.5.2-1.2 1-2.4 2.1-3.2 2.4-1.7 5.9-1.1 7.7 1.3l3.3 4c.5.7 1.7.2 1.4-.6l-2.4-6.2 5.4 2.1c.5.2 1-.1 1.1-.7.1-.4-.1-.8-.5-1l-6.6-2.9 1-3.3 1.6.6c.5.2 1-.1 1.1-.7.1-.4-.1-.8-.5-1L15.6 14c-.3-.1-.6-.3-.7-.6l-1.1-2.7c-.2-.7-1-1-1.7-.7L8.9 11.8c-.7.3-1 1-1 1.7.2 1.5 1.9 2.6 3.8 2.6l.4.6-2.2 3.4zm2-8.2l1.7-.7 1 2.4-1.1.3c-1.2.3-2.4-.1-2.4-1 0-.6.5-1.2 1.1-1zm2-2.2c0-.9.7-1.6 1.6-1.6.9 0 1.6.7 1.6 1.6s-.7 1.6-1.6 1.6c-.9 0-1.6-.7-1.6-1.6z"/></svg>
+        </div>
+        <div class="info-title">ABOUT CLUB</div>
+       <div class="info-detail">Fresh Fruit Subscription<br>Daily Home Delivery</div>
+
+      </div>
+      <div class="contact-info-box">
+        <div class="info-icon" style="background: #ff8906;">
+          <!-- Phone icon SVG -->
+          <svg width="30" height="30" viewBox="0 0 32 32" fill="#fff"><path d="M25.6 21l-4.4-.6c-.7-.1-1.5.1-2 .6l-2 2.1c-3.1-1.7-5.7-4.3-7.4-7.4l2.1-2c.6-.6.7-1.4.6-2l-.6-4.4C11.3 7.6 10.7 7 10 7H6.4C5.7 7 5 7.6 5 8.3c0 10.4 8.3 18.7 18.7 18.7.7 0 1.3-.6 1.3-1.3V22c-.1-.7-.8-1.4-1.4-1z"/></svg>
+        </div>
+        <div class="info-title">PHONE</div>
+        <div class="info-detail">
+          +91 96037 16997
+        </div>
+      </div>
+      <div class="contact-info-box">
+        <div class="info-icon" style="background: #ff8906;">
+          <!-- Location icon SVG -->
+          <svg width="30" height="30" viewBox="0 0 32 32" fill="#fff"><path d="M16 3C10 3 5 8 5 14c0 7.2 9.2 14.6 10.1 15.3.3.2.7.2 1 0C17.8 28.6 27 21.2 27 14c0-6-5-11-11-11zm0 24.9c-2.2-1.9-8-7.2-8-13.9C8 9 11.6 5.5 16 5.5c4.4 0 8 3.5 8 8.5 0 6.6-5.7 12-8 13.9zm0-9.4c-2.6 0-4.8-2.1-4.8-4.8s2.1-4.8 4.8-4.8 4.8 2.1 4.8 4.8-2.1 4.8-4.8 4.8zm0-7.1c-1.3 0-2.3 1-2.3 2.3s1 2.3 2.3 2.3 2.3-1 2.3-2.3-1-2.3-2.3-2.3z"/></svg>
+        </div>
+        <div class="info-title">OUR OFFICE LOCATION</div>
+        <div class="info-detail">
+          Ravulapalem East godavari<br>
+          Andhra pradesh
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-col info">
+    <div class="brand">FruitBox<span class="tm">™</span></div>
+    <p class="desc">
+      We offer a wide range of healthy fruit & sprouts services to meet all your needs, from daily deliveries to custom nutrition plans.
+    </p>
+    <div class="social-icons">
+      <a href="https://wa.me/9603716997" aria-label="WhatsApp"><img src="https://img.icons8.com/ios-filled/32/ffffff/whatsapp.png" alt="WhatsApp"/></a>
+      <a href="https://www.instagram.com/vl_subscription_fruitbox?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" aria-label="Instagram"><img src="https://img.icons8.com/ios-filled/32/ffffff/instagram-new.png"/></a>
+      <a href="#" aria-label="Facebook"><img src="https://img.icons8.com/ios-filled/32/ffffff/facebook.png"/></a>
+      
+    </div>
+  </div>
+
+  <!-- <div class="footer-col links">
+    <div class="footer-title">Extra links</div>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Buyers</a></li>
+      <li><a href="#">Sellers</a></li>
+      <li><a href="#">Our team</a></li>
+      <li><a href="#">About Us</a></li>
+    </ul>
+  </div> -->
+
+  <div class="footer-col contact">
+    <div class="footer-title">Contact</div>
+    <div class="contact-detail">Ravulapalem<br>konaseema district</div>
+    <div class="contact-detail">email@fruitbox.com</div>
+    <div class="contact-detail">+91 96037 16997</div>
+  </div>
+</footer>
+
+
+  <script src="FruitBox.js"></script>
+</body>
+</html>
